@@ -1,1 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#tiles{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section{
+    width: 100%;
+}
+.tileImage{
+    display: block;
+    width: 33.3%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+#bgImg{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+#sectionBgImg{
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 760px){
+    #carGallery{
+        display: flex;
+        flex-direction: row;
+    }
+    #tiles{
+        width: 100%;
+    }
+}
