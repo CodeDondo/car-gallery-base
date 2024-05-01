@@ -16,6 +16,11 @@ section{
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+.tileImage:hover{
+    outline: 2px solid white;
+    z-index: 999;
+    transition: 200ms;
+}
 #bgImg{
     display: block;
     width: 100%;
